@@ -34,7 +34,7 @@ const FoodList = () => {
           <li key={item} className="list-group-item ajAlignItem">
             <input type="checkBox" className="checkBox" onChange={(e)=>handleChechBox(e.target.value, i)}/>
             {item}
-            {(check == false && currnetIndex==i) && <button onClick={()=>handleDlt(i)} type="button" className="AjDltbtn">
+            {(check == true && currnetIndex==i) && <button onClick={()=>handleDlt(i)} type="button" className="AjDltbtn">
               Delete
             </button>}
             
