@@ -1,0 +1,56 @@
+.Appdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  text-align: center;
+  padding: 60px;
+  color: green;
+}
+
+.foodList{
+  margin-top: 40px;
+}
+
+.AjDltbtn{
+  float: right;
+  font-size: 20px;
+  background-color: rgb(215, 1, 1);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 400;
+  padding: 2px 10px;
+}
+
+.ajAlignItem{
+  font-size: 25px;
+  display: flex;
+}
+
+.divWidth{
+  padding: 0 250px;
+}
+
+.ajBtnAdd{
+  background-color: green;
+  padding: 0 15px;
+  border: none;
+  font-weight: 400;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ajDivAlign{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkBox{
+  margin-right: 20px;
+}
