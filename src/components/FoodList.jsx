@@ -6,7 +6,7 @@ const FoodList = () => {
   const { foodList } = useSelector((store) => store.food);
   const dispatch = useDispatch();
   
-  const [check, setCheck] = useState('');
+  const [check, setCheck] = useState(false);
   const [currnetIndex, setCurrentIndex] = useState()
 
   const handleDlt = (indexItem) => {
